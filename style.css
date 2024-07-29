@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(57, 100, 100);
+    font-size: 40px;
+    display: flex;
+}
+header>img {
+    max-width: 600px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gridUnit {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 300px;
+}
+.display {
+    background-color: blue;
+    color: white;
+    margin: 25px;
+    padding: 55px;
+    font-size: 35px;
+}
+.cellCaption {
+    margin: 25px;
+}
+footer>img {
+    max-width: 200px;
+    margin: 30px;
+}
